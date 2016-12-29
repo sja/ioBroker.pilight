@@ -1,0 +1,38 @@
+{
+    "common": {
+        "name":                     "pilight",
+        "version":                  "0.5.0",
+	    "news": {
+			"0.5.0": {
+			  "en": "beta version",
+			  "de": "Betaversion"
+			},
+			"0.0.1": {
+			  "en": "initial adapter",
+			  "de": "Initiale Version"
+			}
+		},
+        "title":                    "Pilight adapter",
+        "desc":                     {
+				 "en": "ioBroker pilight Adapter",
+				 "de": "ioBroker Pilight Adapter"
+		},
+        "platform":                 "Javascript/Node.js",
+        "mode":                     "daemon",
+        "icon":                     "pilight.png",
+        "enabled":                  true,
+		"extIcon":                  "https://raw.githubusercontent.com/ioBroker/ioBroker.pilight/master/admin/pilight.png",
+		"keywords":                 ["pilight", "433", "switch", "weather"],
+        "readme":                   "https://github.com/ioBroker/ioBroker.pilight/blob/master/README.md",
+		"loglevel":                 "info",
+        "type":                     "common adapters",
+        "restartAdapters":          ["vis"]
+    },
+    "native": {
+        "test1": true,
+        "test2": 42
+    },
+    "objects": [
+
+    ]
+}
