@@ -2,6 +2,8 @@
 # ioBroker.pilight
 =================
 
+[![Build Status](https://travis-ci.org/sja/ioBroker.pilight.svg?branch=master)](https://travis-ci.org/sja/ioBroker.pilight)
+
 This is a pilight adapter for ioBroker.
 
 
