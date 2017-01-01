@@ -135,7 +135,7 @@ module.exports = function (grunt) {
                         expand:  true,
                         flatten: true,
                         src:     [
-                                 srcDir + 'widgets/' + newname +'.html'
+                                 srcDir + 'widgets/' + newname + '.html'
                         ],
                         dest:    srcDir + 'widgets'
                     },
@@ -151,7 +151,7 @@ module.exports = function (grunt) {
                         expand:  true,
                         flatten: true,
                         src:     [
-                                 srcDir + 'widgets/' + newname + '/js/' + newname +'.js'
+                                 srcDir + 'widgets/' + newname + '/js/' + newname + '.js'
                         ],
                         dest:    srcDir + 'widgets/' + newname + '/js'
                     },
