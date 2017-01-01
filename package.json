@@ -18,7 +18,8 @@
     "ioBroker",
     "pilight",
     "Smart Home",
-    "home automation"
+    "home automation",
+    "433MHz"
   ],
   "repository": {
     "type": "git",
@@ -44,5 +45,6 @@
   "bugs": {
     "url": "https://github.com/sja/ioBroker.pilight/issues"
   },
-  "readmeFilename": "README.md"
+  "readmeFilename": "README.md",
+  "engines" : { "node" : ">=4.2.0" }
 }

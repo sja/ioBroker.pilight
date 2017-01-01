@@ -6,6 +6,10 @@
 
 This is a pilight adapter for ioBroker. Currently supports plugs and weather devices.
 
+This adapter uses ES6 features, so **Node >=4 is required!**
+
+Thanks to [knalli/homebridge-pilight](https://github.com/knalli/homebridge-pilight) for code sharing and inspiration.
+
 ## Screenshot
 ![Screenshot](admin/screenshot.png)
 
