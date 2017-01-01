@@ -4,8 +4,10 @@
 
 [![Build Status](https://travis-ci.org/sja/ioBroker.pilight.svg?branch=master)](https://travis-ci.org/sja/ioBroker.pilight)
 
-This is a pilight adapter for ioBroker.
+This is a pilight adapter for ioBroker. Currently supports plugs and weather devices.
 
+## Screenshot
+![Screenshot](admin/screenshot.png)
 
 ## Changelog
 
