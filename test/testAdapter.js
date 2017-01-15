@@ -1,5 +1,7 @@
 /* jshint -W097 */// jshint strict:false
 /*jslint node: true */
+"use strict";
+
 var expect = require('chai').expect;
 var setup  = require(__dirname + '/lib/setup');
 
