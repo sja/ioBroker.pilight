@@ -17,6 +17,7 @@ Thanks to [knalli/homebridge-pilight](https://github.com/knalli/homebridge-pilig
 
 ### 0.5.0
   (sja) initial release
+  (jhergeth) compatibility to pilight 8
 
 ## License
 The MIT License (MIT)
