@@ -1,33 +1,44 @@
 {
-    "common": {
-        "name":                     "pilight",
-        "version": "0.5.1",
-	    "news": {
-			"0.5.0": {
-			  "en": "initial adapter",
-			  "de": "Initiale Version"
-			}
-		},
-        "title":                    "Pilight adapter",
-        "desc":                     {
-				 "en": "ioBroker pilight Adapter",
-				 "de": "ioBroker Pilight Adapter"
-		},
-        "platform":                 "Javascript/Node.js",
-        "mode":                     "daemon",
-        "icon":                     "pilight.png",
-        "enabled":                  false,
-		"extIcon":                  "https://raw.githubusercontent.com/sja/ioBroker.pilight/master/admin/pilight.png",
-		"keywords":                 ["pilight", "433", "switch", "weather"],
-        "readme":                   "https://github.com/sja/ioBroker.pilight/blob/master/README.md",
-		"loglevel":                 "info",
-        "type":                     "hardware"
+  "common": {
+    "name": "pilight",
+    "version": "0.6.0",
+    "news": {
+      "0.5.0": {
+        "en": "initial adapter",
+        "de": "Initiale Version"
+      },
+      "0.5.1": {
+        "en": "added tests and some fixes for unknown device types (e.g. program)",
+        "de": "Tests hinzugefügt und tolerant gegen unbekannte Geräte-Typen (z.B. Program) gemacht."
+      },
+      "0.6.0": {
+        "en": "Ensure compatibility to pilight 8 (thanks to jhergeth)",
+        "de": "Kompatibilität zu pilight 8 (Dank an jhergeth)"
+      }
     },
-    "native": {
-        "host": "localhost",
-        "port": 5001
+    "title": "Pilight adapter",
+    "desc": {
+      "en": "ioBroker pilight Adapter",
+      "de": "ioBroker Pilight Adapter"
     },
-    "objects": [
-
-    ]
+    "platform": "Javascript/Node.js",
+    "mode": "daemon",
+    "icon": "pilight.png",
+    "enabled": false,
+    "extIcon": "https://raw.githubusercontent.com/sja/ioBroker.pilight/master/admin/pilight.png",
+    "keywords": [
+      "pilight",
+      "433",
+      "switch",
+      "weather"
+    ],
+    "readme": "https://github.com/sja/ioBroker.pilight/blob/master/README.md",
+    "loglevel": "info",
+    "type": "hardware"
+  },
+  "native": {
+    "host": "localhost",
+    "port": 5001
+  },
+  "objects": []
 }
